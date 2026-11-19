@@ -3,7 +3,7 @@
   Add-in only manifest (XML) for an Outlook Smart Alerts add-in.
 
   Before sideloading, replace every occurrence of
-      https://tim-ri.github.io/tim-cc-addin
+      https://blobantwerp.github.io/tim-cc-addin
   with the HTTPS base URL where the contents of the "docs" folder are hosted
   (see README.md). There are 9 occurrences.
 -->
@@ -20,9 +20,9 @@
   <DefaultLocale>nl-NL</DefaultLocale>
   <DisplayName DefaultValue="Tim Cc check"/>
   <Description DefaultValue="Controleert bij verzenden of tim@blob.be in Aan, Cc of Bcc staat en biedt aan om hem in Cc te zetten."/>
-  <IconUrl DefaultValue="https://tim-ri.github.io/tim-cc-addin/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://tim-ri.github.io/tim-cc-addin/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://tim-ri.github.io/tim-cc-addin/commands.html"/>
+  <IconUrl DefaultValue="https://blobantwerp.github.io/tim-cc-addin/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://blobantwerp.github.io/tim-cc-addin/assets/icon-128.png"/>
+  <SupportUrl DefaultValue="https://blobantwerp.github.io/tim-cc-addin/commands.html"/>
 
   <Hosts>
     <Host Name="Mailbox"/>
@@ -38,7 +38,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://tim-ri.github.io/tim-cc-addin/commands.html"/>
+        <SourceLocation DefaultValue="https://blobantwerp.github.io/tim-cc-addin/commands.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -118,13 +118,13 @@
 
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon.16x16" DefaultValue="https://tim-ri.github.io/tim-cc-addin/assets/icon-16.png"/>
-          <bt:Image id="Icon.32x32" DefaultValue="https://tim-ri.github.io/tim-cc-addin/assets/icon-32.png"/>
-          <bt:Image id="Icon.80x80" DefaultValue="https://tim-ri.github.io/tim-cc-addin/assets/icon-80.png"/>
+          <bt:Image id="Icon.16x16" DefaultValue="https://blobantwerp.github.io/tim-cc-addin/assets/icon-16.png"/>
+          <bt:Image id="Icon.32x32" DefaultValue="https://blobantwerp.github.io/tim-cc-addin/assets/icon-32.png"/>
+          <bt:Image id="Icon.80x80" DefaultValue="https://blobantwerp.github.io/tim-cc-addin/assets/icon-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="WebViewRuntime.Url" DefaultValue="https://tim-ri.github.io/tim-cc-addin/commands.html"/>
-          <bt:Url id="JSRuntime.Url" DefaultValue="https://tim-ri.github.io/tim-cc-addin/launchevent.js"/>
+          <bt:Url id="WebViewRuntime.Url" DefaultValue="https://blobantwerp.github.io/tim-cc-addin/commands.html"/>
+          <bt:Url id="JSRuntime.Url" DefaultValue="https://blobantwerp.github.io/tim-cc-addin/launchevent.js"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="Tim Cc check"/>
