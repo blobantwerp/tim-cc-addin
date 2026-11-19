@@ -228,7 +228,15 @@ function buildBlockOptions() {
   return options;
 }
 
+// DIAGNOSTIC SWITCH. When true, every message is let through immediately, without reading
+// recipients. Use it to find out whether the handler runs at all. Set back to false afterwards.
+var DEBUG_PASS_THROUGH = true;
+
 function onMessageSendHandler(event) {
+  if (DEBUG_PASS_THROUGH) {
+    event.completed({ allowEvent: true });
+    return;
+  }
   var finished = false;
   var timer = null;
 
